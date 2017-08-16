@@ -10,7 +10,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 var phone_service_1 = require("../core/phone/phone.service");
-var static_1 = require("@angular/upgrade/static");
 var PhoneListComponent = (function () {
     function PhoneListComponent(phone) {
         var _this = this;
@@ -62,6 +61,4 @@ PhoneListComponent = __decorate([
     __metadata("design:paramtypes", [phone_service_1.Phone])
 ], PhoneListComponent);
 exports.PhoneListComponent = PhoneListComponent;
-angular.module('phoneList')
-    .directive('phoneList', static_1.downgradeComponent({ component: PhoneListComponent }));
 //# sourceMappingURL=phone-list.component.js.map

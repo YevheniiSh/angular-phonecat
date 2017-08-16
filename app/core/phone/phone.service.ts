@@ -2,9 +2,6 @@ import {Injectable} from '@angular/core';
 import {Http, Response} from '@angular/http';
 import {Observable} from 'rxjs/Rx';
 
-declare var angular: angular.IAngularStatic;
-import {downgradeInjectable} from '@angular/upgrade/static';
-
 import 'rxjs/add/operator/map';
 
 export interface PhoneData {
@@ -27,6 +24,3 @@ export class Phone {
             .map((res: Response) => res.json());
     }
 }
-
-angular.module('core.phone')
-    .factory('phone', downgradeInjectable(Phone));

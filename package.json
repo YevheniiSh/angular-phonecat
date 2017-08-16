@@ -16,7 +16,6 @@
     "@angular/platform-browser-dynamic": "~4.3.4",
     "@angular/platform-server": "^4.3.5",
     "@angular/router": "~4.3.4",
-    "@angular/upgrade": "~4.3.4",
     "angular-in-memory-web-api": "~0.3.0",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
@@ -24,7 +23,6 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "@types/angular": "^1.6.29",
     "@types/jasmine": "2.5.36",
     "@types/node": "^6.0.46",
     "canonical-path": "0.0.2",

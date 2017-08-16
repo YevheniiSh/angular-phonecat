@@ -26,12 +26,16 @@ AppModule = __decorate([
             platform_browser_1.BrowserModule,
             forms_1.FormsModule,
             http_1.HttpModule,
-            app_routing_module_1.AppRoutingModule
+            app_routing_module_1.AppRoutingModule,
         ],
         declarations: [
             app_component_1.AppComponent,
             phone_list_component_1.PhoneListComponent,
             checkmark_pipe_1.CheckmarkPipe,
+            phone_detail_component_1.PhoneDetailComponent
+        ],
+        entryComponents: [
+            phone_list_component_1.PhoneListComponent,
             phone_detail_component_1.PhoneDetailComponent
         ],
         providers: [

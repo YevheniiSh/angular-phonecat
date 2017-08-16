@@ -1,8 +1,6 @@
 import {Component} from "@angular/core";
 
-declare var angular: angular.IAngularStatic;
 import {Phone, PhoneData} from '../core/phone/phone.service';
-import {downgradeComponent} from "@angular/upgrade/static";
 
 @Component({
     selector: 'phone-list',
@@ -53,9 +51,3 @@ export class PhoneListComponent {
     }
 
 }
-
-angular.module('phoneList')
-    .directive(
-        'phoneList',
-        downgradeComponent({component: PhoneListComponent}) as angular.IDirectiveFactory
-    );
